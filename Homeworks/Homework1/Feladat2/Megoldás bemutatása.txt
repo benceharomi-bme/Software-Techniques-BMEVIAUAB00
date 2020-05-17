@@ -1,0 +1,10 @@
+Az alakzatoknak külön osztályokat hoztam létre: Circle, Square, TextArea, illetve a circlenek és a squarenek egy abstract ősosztályt  
+hoztam létre (Shape néven). Létrehoztam egy IShape interfészt, amiben az osztályok közös metódusait hoztam létre, ezek a GetX(),GetY(), 
+GetType(), GetArea(). A Shape osztály implementálja az interfészt, pontosabban a GetX() és a GetY() függvényeket, a GetArea()-t absztraktként,
+ mert különböző alakzatokban különbözően kell kiszámítani, a GetType()-ot virtuálisként, így már itt is meg van valósítva, ezért nincsenek 
+rákényszerítve a leszármazottak a megvalósítására, ezen kívül van még 2 attribútuma az x és az y. A leszármazottak tárolják 
+a saját speciális változójukat (kör a sugarát, négyzet az oldalát), illetve implementálják a GetArea()-t és a GetType()-ot. A TextArea 
+már származik a feladat szerint megadott osztályból, ezért ennek az ősosztálya már nem lehetett a Shape, ezért van szükség az interfészre.
+Az alakzatok a ShapeInventory osztályban tárolódnak listában, IShape objektumokként, ebben az osztályban van még a kilistázó, illetve az 
+Add-oló. A Program osztály Main függgvényében létrehoztam 3 példaalakzatot, mindegyikből egyet, ezeket hozzáadja a ShapeInventoryhoz, 
+majd kilistázza a program.
