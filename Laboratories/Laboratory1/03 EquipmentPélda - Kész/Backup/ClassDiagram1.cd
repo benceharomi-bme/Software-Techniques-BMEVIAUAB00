@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Meres1.EquipmentInventory">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EquipmentInventory.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Meres1.HardDisk">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>HardDisk.cs</FileName>
+      <HashCode>AAAAAAAAAABACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Meres1.Program">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Meres1.SoundCard">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SoundCard.cs</FileName>
+      <HashCode>AAAAAAAAAABACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Meres1.TFTDisplay">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TFTDisplay.cs</FileName>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Meres1.DisplayBase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DisplayBase.cs</FileName>
+      <HashCode>AAABAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Meres1.IEquipment">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IEquipment.cs</FileName>
+      <HashCode>AAAAAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>
